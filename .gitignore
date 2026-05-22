@@ -17,8 +17,7 @@ build/
 htmlcov/
 htmlcov_*/
 
-# SymPy submodule
-sympy/
+# SymPy - 作为 git submodule 管理，不在 .gitignore 中
 
 # Results - 全部由脚本生成，不跟踪
 my_tests/results/

@@ -79,15 +79,17 @@ llm-sympy-testing/
 ### Step 0: 环境准备
 
 ```bash
-# 克隆本仓库
-git clone <your-repo-url>
+# 克隆本仓库（含 submodule）
+git clone --recurse-submodules <your-repo-url>
 cd llm-sympy-testing
+
+# 如果已克隆但未初始化 submodule：
+# git submodule update --init --recursive
 
 # 安装 Python 依赖
 pip install -r requirements.txt
 
-# 克隆 SymPy 源码并安装
-git clone https://github.com/sympy/sympy.git
+# 安装 SymPy（editable 模式）
 cd sympy && pip install -e . && cd ..
 
 # 配置 API Key
