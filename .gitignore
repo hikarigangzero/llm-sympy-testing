@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+
+# Coverage
+.coverage
+.coverage.*
+*.cover
+.coverage*
+htmlcov/
+htmlcov_*/
+
+# SymPy submodule
+sympy/
+
+# Results - 全部由脚本生成，不跟踪
+my_tests/results/
+my_tests/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
